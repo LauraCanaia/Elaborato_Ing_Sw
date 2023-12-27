@@ -71,6 +71,14 @@ __Cosa succede in caso l'esecuzione vada a buon fine :__ La prenotazione viene s
 e viene visualizzata la visita appena effettuata nella tabella della schermata principale.
 
 ### 5. Modifica Visita ###
+__Assunzioni iniziali :__ L'utente ha effettuato l'accesso e nel database collegato all'utente è presente almeno una 
+visita.    
+__Funzionamento standard :__ L'utente può modificare il giorno, l'ora e la motivazione della visita, usando tutti i criteri
+illustrati nella sezione [Prenotazione visita](#4-prenotazione-visita-).   
+__Possibili funzionamenti errati :__ Sono i medesimi esplicati nella sezione [Prenotazione visita](#4-prenotazione-visita-)
+come anche per la sezione "Altre attività".          
+__Cosa succede in caso l'esecuzione vada a buon fine :__ Si ritorna alla Home Page e la visita selezionata in 
+precedenza è stata aggiornata.   
 
 ### 6. Cancellazione visita ###
 
