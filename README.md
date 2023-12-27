@@ -45,7 +45,24 @@ c) Se la password non rispetta le indicazioni date, viene restituito un messaggi
 __Cosa succede in caso l'esecuzione vada a buon fine :__ l'utente viene registrato correttamente e viene reindirizzato
 alla schermata di login dove potrà accedere al sistema inserendo le credenziali appena create.
 
-### ?. Prenotazione visita ###
+### 3. Home Page ###
+__Assunzioni iniziali :__ L'utente ha effettuato l'accesso al sistema.    
+__Fuznionamento standard :__ All'utente si presenta una pagina con il proprio nome, con a fianco ad esso 2 pulsanti : il 
+pulsante di logout e quello di prenotazione di una nuova visita.   
+Sotto di esso vi è una tabella (con anche 0 righe potenzialmente) con tutte le visite che sono in programma e, per ogni 
+visita nella tabella, c'è la possibilità di modificarla o di cancellarla tramite un pulsante a fianco.    
+__Possibili funzionamenti errati :__ essendo una pagina "di passaggio" per altri scenari, l'utente non può direttamente
+causare dei funzionamenti inaspettati.    
+__Cosa succede in caso l'esecuzione vada a buon fine :__ L'utente riesce ad accedere alla sezione collegata al pulsante
+o effettua il logout
+
+### 4. Prenotazione visita ###
+
+### 5. Modifica Visita ###
+
+### 6. Cancellazione visita ###
+
+### 7. Logout ###
 
 ****
 
