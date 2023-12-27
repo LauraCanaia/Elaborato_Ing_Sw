@@ -57,6 +57,18 @@ __Cosa succede in caso l'esecuzione vada a buon fine :__ L'utente riesce ad acce
 o effettua il logout
 
 ### 4. Prenotazione visita ###
+__Assunzioni iniziali :__ L'utente ha effettuato l'accesso e proviene dalla pagina della home page. Inoltre supponiamo
+che tutti gli orari di visita e tutti i giorni sia possibile effettuare delle visite.   
+__Funzionamento standard :__ Per la prenotazione della visita, l'utente deve scegliere un giorno e un orario da una
+selezione preposta e successivamente mettere una motivazione (breve) del motivo per il quale si intende prenotare una
+visita.
+Dopo aver compilato tutti i campi,l'utente deve premere il pulsante "prenota" e viene reinderizzato alla Home Page.   
+__Possibili funzionamenti errati :__ Se il form è vuoto viene segnalato all'utente che non può effettuare la prenotazione. 
+Se, invece, supera i caratteri disponibili, l'inserimento viene bloccato e segnalato.    
+__Altre attività :__ Se l'utente clicca sul pulsante della Home Page senza aver prenotato la visita, tutto quello che 
+era stato selezionato o modificato viene perso.    
+__Cosa succede in caso l'esecuzione vada a buon fine :__ La prenotazione viene salvata, l'utente torna alla Home Page
+e viene visualizzata la visita appena effettuata nella tabella della schermata principale.
 
 ### 5. Modifica Visita ###
 
