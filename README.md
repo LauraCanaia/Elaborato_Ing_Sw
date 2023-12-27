@@ -29,10 +29,21 @@ di loggarsi inserendo il proprio nome utente, password e cliccare il pulsante di
 Se l'utente sa di non essere registrato, è presente anche un pulsante per permettere di registrarsi.     
 __Possibili funzionamenti errati :__ se l'utente tenta di loggarsi senza prima essersi registrato, il sistema 
 mostra un messaggio di errore all'utente chiedendo di reinserire le credenziali oppure di registrarsi al sistema.  
-__Cosa succede in caso non ci siano errori :__ l'utente accede senza problemi nel sistema e passa ad un'altra pagina
+__Cosa succede in caso l'esecuzione vada a buon fine :__ l'utente accede senza problemi nel sistema e passa ad un'altra pagina
 
 
 ### 2. Registrazione ###
+__Assunzioni iniziali :__ L'utente non possiede un account e accede alla schermata di registrazione tramite il 
+pulsante presente sulla schermata di login.   
+__Funzionamento standard :__ L'utente si registra al sistema tramite la compilazione del form inserendo : nome, cognome,
+codice fiscale, password. Dopo aver inserito tutti i parametri l'utente deve cliccare il pulsante "registrati".   
+__Possibili funzionamenti errati :__ Ci sono diversi possibili comportamenti inattesi che possono portare il sistema in
+errore :    
+a) Se i campi non sono stati tutti compilati, l'utente riceve un messaggio di errore dedicato;    
+b) Se il codice fiscale non è valido, nella schermata compare un messaggio di errore dedicato;     
+c) Se la password non rispetta le indicazioni date, viene restituito un messaggio di errore dedicato.   
+__Cosa succede in caso l'esecuzione vada a buon fine :__ l'utente viene registrato correttamente e viene reindirizzato
+alla schermata di login dove potrà accedere al sistema inserendo le credenziali appena create.
 
 ### ?. Prenotazione visita ###
 
