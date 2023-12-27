@@ -74,15 +74,31 @@ e viene visualizzata la visita appena effettuata nella tabella della schermata p
 __Assunzioni iniziali :__ L'utente ha effettuato l'accesso e nel database collegato all'utente è presente almeno una 
 visita.    
 __Funzionamento standard :__ L'utente può modificare il giorno, l'ora e la motivazione della visita, usando tutti i criteri
-illustrati nella sezione [Prenotazione visita](#4-prenotazione-visita-).   
-__Possibili funzionamenti errati :__ Sono i medesimi esplicati nella sezione [Prenotazione visita](#4-prenotazione-visita-)
+illustrati nella sezione 
+[Prenotazione visita](https://github.com/LauraCanaia/Elaborato_Ing_Sw?tab=readme-ov-file#4-prenotazione-visita).   
+__Possibili funzionamenti errati :__ Sono i medesimi esplicati nella sezione 
+[Prenotazione visita](https://github.com/LauraCanaia/Elaborato_Ing_Sw?tab=readme-ov-file#4-prenotazione-visita)
 come anche per la sezione "Altre attività".          
 __Cosa succede in caso l'esecuzione vada a buon fine :__ Si ritorna alla Home Page e la visita selezionata in 
 precedenza è stata aggiornata.   
 
 ### 6. Cancellazione visita ###
+__Assunzioni iniziali :__ L'utente ha effettuato l'accesso e nel database collegato all'utente è presente almeno una
+visita.   
+__Funzionamento standard :__ Cliccando il pulsante "Elimina" l'utente elimina la visita dalla tabella e quindi anche 
+dal database.    
+__Possibili funzionamenti errati :__ Non sono presenti funzionamenti errrati che possono essere compiuti dall'utente in
+quanto per l'eliminazione non vi è alcuna interazione con l'utente.    
+__Cosa succede in caso l'esecuzione vada a buon fine :__ Nella tabella delle visite non compare più la visita 
+selezionata in precedenza.
 
 ### 7. Logout ###
+__Assunzioni iniziali :__ L'utente ha effettuato l'accesso al sistema.    
+__Funzionamento standard :__ Cliccando il pulsante logout l'utente esce dal sistema.
+__Possibili funzionamenti errati :__ Non sono presenti funzionamenti errrati che possono essere compiuti dall'utente in
+quanto per l'eliminazione non vi è alcuna interazione con l'utente.    
+__Cosa succede in caso l'esecuzione vada a buon fine :__ Dopo aver cliccato il pulsante per il logout, l'utente esce
+dal sistema e torna alla schermata di Login.
 
 ****
 
